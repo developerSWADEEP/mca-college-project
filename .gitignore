@@ -1,0 +1,16 @@
+# Local DB credentials (copy from database.php.example)
+cms/application/config/database.php
+
+# CodeIgniter runtime
+cms/application/logs/*
+!cms/application/logs/index.html
+cms/application/cache/*
+!cms/application/cache/index.html
+
+# OS / editor
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.idea/
+.vscode/
